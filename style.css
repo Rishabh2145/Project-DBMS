@@ -1,0 +1,64 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .background {
+  border: 0px;
+  height: 100vh;
+  width: 100vw;
+  image-rendering: auto;
+  background-image: rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), url(1_zpnzhqvvazmJpJLkHB3VcQ.gif);
+  position: absolute;
+}
+body .option {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  height: 60vh;
+  width: 65vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+}
+body .option .top {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+body .option .top header {
+  height: 30px;
+  width: 45vh;
+  border-radius: 10px;
+  margin-top: 5px;
+  font-family: cursive;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+body .option .top #infoButton {
+  margin-top: 5px;
+  height: 30px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+}
+body .option .top #offcanvasExample {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-family: cursive;
+}
+body .option .top .offcanvas-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=style.css.map */
