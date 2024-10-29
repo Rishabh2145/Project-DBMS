@@ -19,16 +19,17 @@ body {
     .option {
         position: relative;
         display: flex;
-        justify-content: space-around;
-        height: 60vh;
+        height: 75vh;
         width: 65vh;
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0.7);
         border-radius: 20px;
+        flex-direction: column;
+        padding: 15px;
 
         .top {
             display: flex;
             justify-content: space-between;
-            gap: 15px;
+
             header {
                 height: 30px;
                 width: 45vh;
@@ -57,10 +58,86 @@ body {
                 color: white;
                 font-family: cursive;
             }
-            .offcanvas-body{
+
+            .offcanvas-body {
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
+            }
+        }
+
+        .menu {
+            height: 100%;
+            width: 100%;
+            padding: 40px;
+
+            >p {
+                margin-bottom: 20px;
+                color: white;
+                font-size: large;
+                font-family: cursive;
+                text-align: center;
+            }
+
+            #menuButton {
+                width: 100%;
+                height: 90%;
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+
+                >button {
+                    height: 70px;
+                    width: 160px;
+                    font-family: cursive;
+                    font-size: larger;
+                    font-weight: 600
+                }
+            }
+        }
+        #insertion{
+            height: 100%;
+            width: 100%;
+            padding: 10px 30px;
+            font-family: cursive;
+            font-size: large;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            >input{
+                background-color: rgba(0, 0, 0, 0.4);
+            }
+        }
+        #deletion {
+            height:100%;
+            width: 100%;
+            font-size: larger;
+            color: white;
+            padding: 10px 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            font-family: cursive;
+            >div{
+                margin-bottom: 20px;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+            }
+            button{
+                width: 30%;
+                margin-bottom: 20px;
+            }
+        }
+        #updation{
+            font-size: larger;
+            color: white;
+            font-family: cursive;
+            padding: 0px 20px;
+            >div{
+                margin-bottom: 6px;
             }
         }
     }

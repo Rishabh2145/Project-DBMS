@@ -18,16 +18,16 @@ body .background {
 body .option {
   position: relative;
   display: flex;
-  justify-content: space-around;
-  height: 60vh;
+  height: 75vh;
   width: 65vh;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
   border-radius: 20px;
+  flex-direction: column;
+  padding: 15px;
 }
 body .option .top {
   display: flex;
   justify-content: space-between;
-  gap: 15px;
 }
 body .option .top header {
   height: 30px;
@@ -59,6 +59,77 @@ body .option .top .offcanvas-body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+body .option .menu {
+  height: 100%;
+  width: 100%;
+  padding: 40px;
+}
+body .option .menu > p {
+  margin-bottom: 20px;
+  color: white;
+  font-size: large;
+  font-family: cursive;
+  text-align: center;
+}
+body .option .menu #menuButton {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+body .option .menu #menuButton > button {
+  height: 70px;
+  width: 160px;
+  font-family: cursive;
+  font-size: larger;
+  font-weight: 600;
+}
+body .option #insertion {
+  height: 100%;
+  width: 100%;
+  padding: 10px 30px;
+  font-family: cursive;
+  font-size: large;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .option #insertion > input {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+body .option #deletion {
+  height: 100%;
+  width: 100%;
+  font-size: larger;
+  color: white;
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: cursive;
+}
+body .option #deletion > div {
+  margin-bottom: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+body .option #deletion button {
+  width: 30%;
+  margin-bottom: 20px;
+}
+body .option #updation {
+  font-size: larger;
+  color: white;
+  font-family: cursive;
+  padding: 0px 20px;
+}
+body .option #updation > div {
+  margin-bottom: 6px;
 }
 
 /*# sourceMappingURL=style.css.map */
